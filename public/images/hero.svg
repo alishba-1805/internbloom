@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="460" viewBox="0 0 560 460">
+  <!-- Background -->
+  <rect width="560" height="460" rx="32" fill="#F8F7F2"/>
+  <circle cx="290" cy="215" r="170" fill="#D9E9B8"/>
+  <ellipse cx="280" cy="412" rx="235" ry="14" fill="#E1E7E1"/>
+
+  <!-- Plant that grows beside the student -->
+  <path d="M455 340V205" stroke="#173F37" stroke-width="7" stroke-linecap="round"/>
+  <path d="M452 292c-42 0-62-24-62-54 38 0 62 18 62 54Z" fill="#32745B"/>
+  <path d="M458 252c0-40 26-62 62-62 0 38-22 62-62 62Z" fill="#173F37"/>
+  <circle cx="437" cy="178" r="14" fill="#FFFFFF"/>
+  <circle cx="473" cy="178" r="14" fill="#FFFFFF"/>
+  <circle cx="455" cy="162" r="14" fill="#FFFFFF"/>
+  <circle cx="455" cy="196" r="14" fill="#FFFFFF"/>
+  <circle cx="455" cy="179" r="12" fill="#E4A93C"/>
+  <path d="M420 338h70l-9 70h-52Z" fill="#C86F4A"/>
+  <rect x="412" y="328" width="86" height="18" rx="6" fill="#A9593A"/>
+
+  <!-- Student: legs -->
+  <path d="M150 372c18-40 74-46 118-22l62 30c14 8 8 28-8 26l-92-12-58 14c-22 4-32-14-22-36Z" fill="#23312C"/>
+  <ellipse cx="338" cy="397" rx="27" ry="12" fill="#173F37"/>
+  <!-- Student: body -->
+  <path d="M153 366c-6-72 12-128 62-128s68 52 62 128c-38 16-86 16-124 0Z" fill="#32745B"/>
+  <!-- Student: neck and head -->
+  <rect x="203" y="214" width="24" height="34" rx="10" fill="#C98F68"/>
+  <circle cx="215" cy="186" r="40" fill="#D9A17A"/>
+  <path d="M172 192c-6-40 18-64 49-61 28 2 46 24 38 54-10-8-18-20-22-30-14 18-34 24-56 24l-2 40c-10-6-8-16-7-27Z" fill="#2B201C"/>
+  <circle cx="204" cy="192" r="3.5" fill="#23312C"/>
+  <circle cx="232" cy="192" r="3.5" fill="#23312C"/>
+  <path d="M208 207q10 8 20 0" stroke="#23312C" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Student: arm and laptop -->
+  <path d="M178 276c-8 40 14 62 62 54" stroke="#285F4A" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M258 270h84a8 8 0 0 1 8 9l-9 55h-92Z" fill="#173F37"/>
+  <circle cx="296" cy="304" r="9" fill="#D9E9B8"/>
+  <rect x="220" y="332" width="134" height="10" rx="5" fill="#64746C"/>
+  <circle cx="246" cy="329" r="11" fill="#D9A17A"/>
+
+  <!-- Floating internship card -->
+  <rect x="42" y="56" width="176" height="90" rx="14" fill="#FFFFFF" stroke="#E1E7E1" stroke-width="2"/>
+  <rect x="58" y="74" width="34" height="34" rx="9" fill="#173F37"/>
+  <path d="M67 92l6 6 11-13" stroke="#D9E9B8" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="104" y="76" width="94" height="10" rx="5" fill="#23312C"/>
+  <rect x="104" y="96" width="68" height="8" rx="4" fill="#64746C"/>
+  <rect x="58" y="122" width="52" height="8" rx="4" fill="#D9E9B8"/>
+  <rect x="118" y="122" width="40" height="8" rx="4" fill="#E1E7E1"/>
+
+  <!-- Second card -->
+  <rect x="322" y="52" width="132" height="58" rx="14" fill="#FFFFFF" stroke="#E1E7E1" stroke-width="2"/>
+  <circle cx="348" cy="81" r="13" fill="#32745B"/>
+  <rect x="370" y="68" width="66" height="9" rx="4.5" fill="#23312C"/>
+  <rect x="370" y="87" width="46" height="8" rx="4" fill="#64746C"/>
+</svg>
