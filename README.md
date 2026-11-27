@@ -2,6 +2,12 @@
 
 *Your first step towards more.*
 
+A frontend-only internship discovery portal for university students, built with Next.js.
+
+- **Live website:** <https://internbloom.vercel.app/>
+- **GitHub repository:** <https://github.com/alishba-1805/internbloom>
+- **Video demo** (`A3_G41_Video.mp4`): *link pending*
+
 CS4032 Web Programming, BS Cyber Security, Fall 2026. Assignment 3: Next.js Frontend.
 
 | Item | Details |
@@ -77,9 +83,9 @@ Planned division of work. The percentages show each member's planned share of th
 
 | Member | Area | Pages | Components and other files |
 |---|---|---|---|
-| Alishba Inam (35%) | Leadership, architecture and internship module | `/internships`, `/internships/[id]` | InternshipExplorer, FilterBar, InternshipCard, FieldBadge, internship data, shared types, formatting helpers, project setup, integration and deployment |
+| Alishba Inam (35%) | Leadership, architecture and internship module | `/internships`, `/internships/[id]` | InternshipExplorer, FilterBar, InternshipCard, FieldBadge, internship data, shared types, formatting helpers, project setup, integration, quality assurance, GitHub and deployment |
 | Amna Zainab (33%) | Visual design and company module | `/`, `/about`, `/companies`, `/companies/[id]`, root layout | Navbar, Footer, CompanyCard, SectionHeading, PageHeader, company data, global styles, logos and images |
-| Hafsa Naeem (32%) | Application module and state management | `/apply`, 404 page, loading screen | ApplicationWorkspace, ApplicationForm, ApplicationTracker, FormField, StatusBadge, EmptyState, documentation |
+| Hafsa Naeem (32%) | Application module and state management | `/apply`, 404 page, loading screen | ApplicationWorkspace, ApplicationForm, ApplicationTracker, FormField, StatusBadge, EmptyState, form testing, documentation |
 
 ## Project structure
 
@@ -97,12 +103,6 @@ public/       Local images and company logos
 - All companies, listings, stipends and dates are fictional demonstration data.
 - Applications are simulated. Nothing is sent to an employer or stored.
 - The tracker and duplicate check last only until the page is refreshed or left.
-
-## Links
-
-- GitHub repository: <https://github.com/alishba-1805/internbloom>
-- Video demo (`A3_G41_Video.mp4`): *link pending*
-- Live site (Vercel): *link pending*
 
 ## Assets
 
