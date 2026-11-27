@@ -2,11 +2,8 @@
 
 *Your first step towards more.*
 
-A frontend-only internship discovery portal for university students, built with Next.js.
-
 - **Live website:** <https://internbloom.vercel.app/>
 - **GitHub repository:** <https://github.com/alishba-1805/internbloom>
-- **Video demo** (`A3_G41_Video.mp4`): *link pending*
 
 CS4032 Web Programming, BS Cyber Security, Fall 2026. Assignment 3: Next.js Frontend.
 
@@ -14,7 +11,7 @@ CS4032 Web Programming, BS Cyber Security, Fall 2026. Assignment 3: Next.js Fron
 |---|---|
 | Group number | 41 |
 | Topic number | 48 |
-| Official topic | Internship Portal for Students |
+| Topic title | Internship Portal for Students |
 | Category | Careers |
 
 ## Group members
@@ -27,35 +24,35 @@ CS4032 Web Programming, BS Cyber Security, Fall 2026. Assignment 3: Next.js Fron
 
 ## About the app
 
-InternBloom is an internship discovery portal for university students in Pakistan. Students can search, filter and sort internships, read role and company details, and submit a simulated application that appears in a temporary tracker. It is frontend only: all companies and listings are fictional mock data, nothing is sent to employers and applications are not saved.
+InternBloom is an internship portal for university students in Pakistan. Students can search, filter and sort internships, read about each role and company, and try a demo application that appears in a tracker. It is a frontend-only project, so all companies and listings are made up and no application is actually sent or saved.
 
-## Main features
+## Features
 
 - Search by internship title, company name or skill
-- Filters for field, city and work arrangement that work together, plus reset
+- Filters for field, city and work arrangement that work together, with a reset button
 - Sorting by most recent or by stipend
-- Dynamic internship and company pages with their own titles and descriptions
-- Controlled application form with inline validation messages
-- Application tracker with duplicate prevention (same email and internship)
-- Custom 404 page, loading skeleton and a mobile navigation menu
-- Responsive layouts for mobile, tablet and desktop
+- A separate page for every internship and company
+- Application form that explains what needs correcting
+- Application tracker that blocks applying twice with the same email
+- Custom 404 page, loading screen and a menu for small screens
+- Layouts for mobile, tablet and desktop
 
 ## Technology
 
-Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4, ESLint, npm.
+Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4, ESLint and npm.
 
 ## How to run
 
-Requires Node.js 20.9 or newer.
+You need Node.js 20.9 or newer.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open <http://localhost:3000>.
+Then open <http://localhost:3000>.
 
-Production build:
+To check the production build:
 
 ```bash
 npm run build
@@ -66,48 +63,44 @@ npm start
 
 | Route | What it shows |
 |---|---|
-| `/` | Hero, featured internships, popular fields, how it works |
-| `/internships` | All internships with search, filters and sorting. `?field=` preselects a field |
-| `/internships/[id]` | One internship in full, with related roles |
-| `/companies` | Directory of six companies and their internship counts |
-| `/companies/[id]` | Company profile, working environment and open internships |
-| `/apply` | Application form and tracker. `?internship=` preselects a role |
-| `/about` | Purpose, problems addressed, features and team |
-| Any unknown URL or ID | Custom 404 page |
-
-The tracker uses React state. It clears when the page is refreshed or when you leave `/apply`.
+| `/` | Introduction, newest internships, popular fields and how it works |
+| `/internships` | All internships with search, filters and sorting. `?field=` selects a field |
+| `/internships/[id]` | Full details of one internship and similar roles |
+| `/companies` | The six companies and how many internships each offers |
+| `/companies/[id]` | Company profile, working environment and its internships |
+| `/apply` | Application form and tracker. `?internship=` selects a role |
+| `/about` | Why we built the app, its features and our team |
+| Any unknown address or ID | Custom 404 page |
 
 ## Contribution table
 
-Planned division of work. The percentages show each member's planned share of the workload.
-
-| Member | Area | Pages | Components and other files |
-|---|---|---|---|
-| Alishba Inam (35%) | Leadership, architecture and internship module | `/internships`, `/internships/[id]` | InternshipExplorer, FilterBar, InternshipCard, FieldBadge, internship data, shared types, formatting helpers, project setup, integration, quality assurance, GitHub and deployment |
-| Amna Zainab (33%) | Visual design and company module | `/`, `/about`, `/companies`, `/companies/[id]`, root layout | Navbar, Footer, CompanyCard, SectionHeading, PageHeader, company data, global styles, logos and images |
-| Hafsa Naeem (32%) | Application module and state management | `/apply`, 404 page, loading screen | ApplicationWorkspace, ApplicationForm, ApplicationTracker, FormField, StatusBadge, EmptyState, form testing, documentation |
+| Member | Responsibility | Pages | Components and other files | Share |
+|---|---|---|---|---:|
+| Alishba Inam (Leader) | Architecture, core internship module, integration and deployment | `/internships`, `/internships/[id]` | InternshipExplorer, FilterBar, InternshipCard, FieldBadge, internship data, shared types, formatting helpers, project setup | 35% |
+| Amna Zainab | UI/UX, homepage, layout and company module | `/`, `/about`, `/companies`, `/companies/[id]`, root layout | Navbar, Footer, CompanyCard, SectionHeading, PageHeader, company data, global styles, logos and images | 33% |
+| Hafsa Naeem | Application form, validation and state management | `/apply`, 404 page, loading screen | ApplicationWorkspace, ApplicationForm, ApplicationTracker, FormField, StatusBadge, EmptyState | 32% |
 
 ## Project structure
 
 ```text
-app/          Routes, layout, 404 and loading files
+app/          Pages, layout, 404 and loading files
 components/   Reusable components with typed props
-data/         Mock internships, companies and navigation links
+data/         Internship, company and navigation data
 lib/          Small formatting functions
 types/        TypeScript interfaces
-public/       Local images and company logos
+public/       Images and company logos
 ```
 
 ## Limitations
 
-- All companies, listings, stipends and dates are fictional demonstration data.
-- Applications are simulated. Nothing is sent to an employer or stored.
-- The tracker and duplicate check last only until the page is refreshed or left.
+- All companies, listings, stipends and dates are sample data.
+- Applications are simulated and nothing is sent to an employer.
+- The tracker clears when the page is refreshed or when you leave it.
 
-## Assets
+## Images
 
-The logo, favicon, illustrations and company marks are original SVG files made for this project. No third-party images or downloaded fonts are used.
+The logo, icon, illustrations and company logos are SVG files made for this project. No third-party images or downloaded fonts are used.
 
 ## AI tools used
 
-Claude (Anthropic, through Claude Code) was used to generate the initial source code, mock data, SVG artwork and draft documentation, and to review and test the project.
+We used Claude (Claude Code) to generate the initial code, sample data, images and documentation drafts, and to review and test the app.

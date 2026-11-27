@@ -41,7 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 # temporary and editor files
-.playwright-mcp/
 .vscode/
 .idea/
 Thumbs.db
