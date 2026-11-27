@@ -304,7 +304,3 @@ internbloom/
 ## Images
 
 The logo, icon, illustrations and company logos are SVG files made for this project. The screenshots show our live website. No third-party images or downloaded fonts are used.
-
-## AI tools used
-
-We used Claude (Claude Code) to generate the initial code, sample data, images and documentation drafts, and to review and test the app.
